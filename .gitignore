@@ -1,0 +1,28 @@
+# Installed packages and Expo's per-machine development state
+node_modules/
+.expo/
+.expo-shared/
+expo-env.d.ts
+
+# Build outputs and logs
+dist/
+web-build/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Local configuration and signing credentials
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.pem
+*.mobileprovision
+
+# Device and editor files
+.DS_Store
+Thumbs.db
+.idea/
