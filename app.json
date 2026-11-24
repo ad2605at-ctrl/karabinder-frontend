@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Karabinder",
+    "slug": "karabinder-frontend",
+    "scheme": "karabinder",
+    "version": "0.1.0",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      ["expo-image-picker", {
+        "cameraPermission": "名刺を撮影するためにカメラを使います。",
+        "photosPermission": "名刺の写真を選ぶために使用します。"
+      }],
+      ["expo-audio", {
+        "microphonePermission": "会話メモに音声を残すためにマイクを使います。",
+        "enableBackgroundRecording": false,
+        "enableBackgroundPlayback": false
+      }]
+    ]
+  }
+}
